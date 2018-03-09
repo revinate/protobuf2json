@@ -5,7 +5,7 @@ Command-line utility to convert protobuf-encoded messages to JSON and vice versa
 ## Installation
 
 ```
-$ npm install -s protobuf2json
+$ npm install -g protobuf2json
 ```
 
 ## Usage
