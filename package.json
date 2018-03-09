@@ -1,0 +1,21 @@
+{
+  "name": "protobuf2json",
+  "version": "0.1.0",
+  "description": "Convert protobuf-encoded messages to JSON and vice versa",
+  "main": "./lib/index.js",
+  "bin": {
+    "protobuf2json": "./bin/protobuf2json.js",
+    "json2protobuf": "./bin/json2protobuf.js"
+  },
+  "author": "Alex Leigh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/revinate/protobuf2json.git"
+  },
+  "dependencies": {
+    "commander": "^2.14.1",
+    "get-stdin": "^6.0.0",
+    "protobufjs": "~6.8.6"
+  }
+}
