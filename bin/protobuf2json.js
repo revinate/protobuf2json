@@ -6,9 +6,9 @@ const program = require('commander');
 const protobuf2json = require('../lib');
 
 program
-  .version('0.1.0')
+  .version('0.1.1')
   .description('Convert protobuf to JSON')
-  .option('-d, --directory <path>', 'path to base directory containing proto file and all its imports')
+  .option('-d, --directory <path>', 'path to base directory containing proto file and all its imports', '.')
   .option('-p, --proto <path>', 'path to proto file relative to base directory')
   .option('-t, --type <name>', 'protobuf message type')
   .option('-m, --multi', 'multiple protobuf messages with prefixed signed 32-bit big endian message length')
