@@ -93,7 +93,7 @@ messages to Kafka topics, and to examine the contents of Kafka topics containing
 To publish a protobuf-encoded message to Kafka:
 
 ```
-$ json2protobuf -d protos -p my_message.proto -t MyMessage < my_message.json | kafkacat -P -b <broker> -t <topic> -D zxzzqx
+$ json2protobuf -d protos -p my_message.proto -t MyMessage < my_message.json | kafkacat -P -b <broker> -t <topic> -D \t
 ```
 
 To print the contents of a protobuf-encoded Kafka topic to stdout:

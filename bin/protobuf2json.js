@@ -6,7 +6,7 @@ const program = require('commander');
 const protobuf2json = require('../lib');
 
 program
-  .version('0.1.1')
+  .version('0.2.1')
   .description('Convert protobuf to JSON')
   .option('-d, --directory <path>', 'path to base directory containing proto file and all its imports', '.')
   .option('-p, --proto <path>', 'path to proto file relative to base directory')
