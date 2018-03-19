@@ -1,6 +1,6 @@
 {
   "name": "protobuf2json",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Convert protobuf-encoded messages to JSON and vice versa",
   "main": "./lib/index.js",
   "bin": {
